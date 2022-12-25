@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--hidden source code script deface-->
+<!--boleh direcode :)-->
+<!--coded by Mr.onlypro-->
+<head>
+<title>tools encrypt by Mr.onlypro</title>
+<meta name="description" content="Orang Gila Bebas gan :v">
+<link rel="icon" type="http://krypsec.com/it-courses/IT-Training/image/hacker3.gif">
+<meta property="og:image" content="https://4.bp.blogspot.com/-PMHmtAyANKo/WJLHdLH3egI/AAAAAAAAV8g/I0B7um4fmycuLgH1eVi6-Geah9dhqxw5wCLcB/s280/Logo-Anonymous-Gadfly-01.jpg">
+<center>
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/ethicalhacking.jpg" width="" style="float:center">
+<!--
+<script language='JavaScript'>
+//code untuk password
+var password;
+var pass1="gendeng";
+password=prompt('Masukin Passwordnya bujang lanang | neng cantik :v','');
+if (password==pass1){
+ alert('Salamat sa pag gamit nitong tools Mr.Onlypr');
+}
+else{
+ window.location="";
+}
+</script>
+-->
+</center>
+</head>
+<body>
+<script type="text/javascript">
+function decode(v){
+    return unescape(v.replace(/\\u00/g, '%'));
+}
+function encode(v){
+    v = v.split('');
+    for(var i = 0; i < v.length; ++i){
+        v[i] = v[i].charCodeAt(0).toString(16).toUpperCase();
+        if(v[i].length < 2){v[i] = '0' + v[i];}
+    }
+    return '\\u00' + v.join('\\u00');
+}
+</script>
+<style type="text/css">
+body {
+    font: normal 100%;
+ background:
+url(http://3.bp.blogspot.com/-iU1yqYu02k4/UkXNYJgrKjI/AAAAAAAAARU/lONFfYDTHWU/s1600/android_3d_hvga_gif.gif);
+ background-size: 100%;
+ background-attachment:fixed;
+}
+#decoder {
+    overflow: hidden;
+ color: lime;
+ background: black;
+}
+
+td {
+    font:'courier new', monospace;
+    vertical-align: middle;
+    padding: 2px 0;
+    margin: 0;
+}
+.first {
+    padding-left: 0.5em;
+}
+.last {
+    padding-right: 0.5em;
+}
+.style3 {
+    color: lime;
+    font-size: 36px;
+    font-family: "Courier New";
+ text-shadow:
+    0px 0px 4px #ccc,
+    -1px -5px 4px #ff3,
+    2px -10px 6px #fd3,
+    -3px -15px 11px #f80,
+    3px -18px 18px #f20;
+
+}
+.style4 {
+    color: lime;
+    font-weight: bold;
+}
+.style5 {
+ color: lime;
+}
+.style6 {
+    font-size: 24px;
+    font-family: "Courier New";
+    font-weight: bold;
+    color: lime;
+}
+.style7 {
+    color: lime;
+    font-family: "Courier New";
+}
+.tombol {
+ //ubah warna background
+        background-color: Black;
+        //ubah warna tulisan
+        color: lime;
+        //atur border
+        border: 2px solid lime;
+        //atur sudut border
+        border-radius: 50px;
+        //membuat efek bayangan
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+        //teks rata tengah
+        text-align: center;
+        //ubah jarak margin/luar
+        margin: 5px 2px;
+        //ubah jarak padding/dalam
+        padding: 10px 15px;
+        //ubah tampilan kursor ketika berada diatas elemen
+        cursor: pointer;
+      }
+      .tombol:hover{
+        //ubah warna background ketika kursor berada diatas elemen
+        background-color: red;
+        //ubah warna tulisan
+        color: white;
+}
+</style>
+<title></title>
+
+<div align="center">
+  <p class="style3">
+<span><font>&nbsp;&nbsp;Encryption html,javascript,code</font></span>
+</p></div>
+<br><br>
+<div align="center">
+  <p>
+<span>
+<font color="lime" face="courier new">Mr.ONLYPRO</font></span>
+</p><div class="style5">
+<strong align="center">
+<span class="style12">
+    <textarea name="textarea2" cols="40" rows="10" style="background: black;
+ border: 1px solid lime;
+ color: lime;" class="style12" id="decoded" onfocus="this.select();">passte your script to encrypt!</textarea>
+    </span><br>
+  </strong>
+</p></div>
+<strong align="center">
+<span><span><font color="lime" face="courier new">result your encryption Here !</font></span></span><br>
+  <br>
+  <strong align="center">
+  <span class="style12">
+  <textarea name="textarea" cols="40" rows="10" style="background: black; color: blue; border: 1px solid blue;" id="decoder" onfocus="this.select();"></textarea>
+  </span>
+</p><p align="center" class="style12">
+<span class="style5">
+  <input type="button" class="tombol" onclick="document.getElementById('decoder').value = encode(document.getElementById('decoded').value);" value="Encryption scrypt">
+
+</span></p>
+<center>
+<font color="white" face="courier new">copy script to encrypt. paste to XXX LOWER BOX<br>script encrypt PASTE to XXX TO format HTML<br> script deface box</font></center><br>
+
+<center>
+<textarea name="textarea" style="border: 1px solid lime; background: black; color: lime;" cols="30" rows="5">&lt;script type="text/javascript"&gt;document.write('XXX');&lt;/script&gt;</textarea></center>
+<p></p>
+</div></html>
